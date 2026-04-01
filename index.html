@@ -9,46 +9,71 @@
 
         <title>Travelgram | Perfil de Viagens</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="styles/index.css">
+
     </head>
     <body>
-        <header>
-            <a><span>img</span><span>Travelgram</span></a>
-            <div>
-                <a>img</a>
-                <span>Explorar</span>
-                <span>Minhas Viagens</span>
-                <span>Icon img</span>
-            </div>
-        </header>
-        <main>
-            <section id="headline">
-                <div>
-                    <span>Imagem Grande</span>
+        <header class="bg-surface-color">
+            <nav class="container">
+                <a href="" id="logo">
+                    <img src="/assets/Logo.svg" alt="Logo do Travelgram">
+                </a>
+                
+                <ul id="primary-menu">
+                    <li>
+                        <a href="">
+                            <img src="assets/icons/MagnifyingGlass.svg" alt="Ícone de Lupa">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Explorar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Minhas Viagens
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="assets/Profile pic.png" alt="Imagem do Perfil">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section id="headline" class="container">
+                <div id="profile">
+                    <img src="assets/Profile pic.png" alt="Imagem do Perfil">
                     <div id="summary">
                         <h1>Isabela Torres</h1>
-                        <p>Amante de viagens, cultura e gastronomia. 🌍✈️  
-Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸</p>
-                    </div>
-                    <div id="info">
-                        <div>
-                            <span>Icon img</span>
-                            <span>1.2k</span>
-                        </div>
-                        <div>
-                            <span>Icon img</span>
-                            <span>500</span>
-                        </div>
-                        <div>
-                            <span>Icon img</span>
-                            <span>300</span>
-                        </div>
-                    </div>
+                        <p>Amante de viagens, cultura e gastronomia. 🌍✈️ <br>Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸</p>
+                    </div>  
                 </div>
-            </section>
 
-            <section id="images">
+                <ul id="info">
+                    <li>
+                        <img src="assets/icons/MapPin.svg" alt="">
+                        <span>São Paulo, Brasil</span>
+                    </li>
+
+                    <li>
+                        <img src="assets/icons/AirplaneTilt.svg" alt="">
+                        <span>37 países</span>
+                    </li>
+
+                    <li>
+                        <img src="assets/icons/Image.svg" alt="">
+                        <span>240 fotos</span>
+                    </li>
+                </ul>
+            </section>
+        </header>
+        <main>
+            <section id="images" hidden>
                 <div>Imagem</div>
                 <div>Imagem</div>
                 <div>Imagem</div>
@@ -59,7 +84,7 @@ Aqui compartilho as histórias registradas em cada clique, explorando cantinhos 
             </section>
         </main>
 
-        <footer>
+        <footer hidden>
             <span>Travelgram © 2024</span>
             <span>Termos de uso</span>
             <span>Política de Privacidade</span>
