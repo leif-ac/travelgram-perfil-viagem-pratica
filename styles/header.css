@@ -42,6 +42,13 @@ nav ul li:last-child img {
     margin-bottom: 8px;
 }
 
+#profile img {
+    max-height: 110px;
+    max-width: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #summary {
     max-width: 384px;
 }
