@@ -27,6 +27,8 @@ nav ul li:last-child img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font: var(--text-md);
 }
 
 #profile {
@@ -38,10 +40,6 @@ nav ul li:last-child img {
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 8px;
-}
-
-#profile p {
-    font: var(--text-md);
 }
 
 #summary {
